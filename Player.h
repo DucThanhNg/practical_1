@@ -1,7 +1,7 @@
 #include <iostream>
 
 class Player{
-    private:
+    protected:
         std::string name;
         char move;
 
