@@ -1,6 +1,7 @@
 #include <iostream>
+#include <Player.h>
 
-class Computer{
+class Computer: public Player{
     private:   
         std::string name;
         char move;
