@@ -37,6 +37,9 @@ Player* Referee::refGame(Player* player1,Player* player2){
     else if(p1move == 'S' && p2move == 'S'){
         return nullptr;
     }
+    else{
+        std::cout << "Invalid Moves" << std::endl;
+    }
 
 }
 
