@@ -1,4 +1,5 @@
 #include "Human.h"
+#include "Player.h"
 
 Human::Human(std::string Name){
     name = Name;
@@ -16,4 +17,5 @@ std::string Human::getName(){
 char Human::makeMove(){
     std::cout << "Enter move: ";
     std::cin >> move;
+    return move;
 }

@@ -1,5 +1,5 @@
-#include <Referee.h>
-#include <Player.h>
+#include "Referee.h"
+#include "Player.h"
 
 Referee::Referee(){
 }
@@ -28,7 +28,7 @@ Player* Referee::refGame(Player* player1,Player* player2){
         return nullptr;
     }
 
-    if(p1move == 'S' && p2move == 'P'){
+    else if(p1move == 'S' && p2move == 'P'){
         return player1;
     } 
     else if(p1move == 'S' && p2move == 'R'){
@@ -40,6 +40,7 @@ Player* Referee::refGame(Player* player1,Player* player2){
     else{
         std::cout << "Invalid Moves" << std::endl;
     }
+    return 0;
 
 }
 

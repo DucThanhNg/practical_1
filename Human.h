@@ -1,5 +1,7 @@
+#ifndef HUMAN
+#define HUMAN
 #include <iostream>
-#include <Player.h>
+#include "Player.h"
 
 class Human: public Player{
     private:
@@ -16,3 +18,4 @@ class Human: public Player{
 
 
 };
+#endif

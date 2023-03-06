@@ -1,5 +1,7 @@
+#ifndef REFEREE
+#define REFEREE
 #include <iostream>
-#include <Player.h>
+#include "Player.h"
 
 class Referee{
     public:
@@ -8,3 +10,4 @@ class Referee{
         
         
 };
+#endif

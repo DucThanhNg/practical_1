@@ -1,3 +1,5 @@
+#ifndef PLAYER
+#define PLAYER
 #include <iostream>
 
 class Player{
@@ -11,3 +13,4 @@ class Player{
 
 
 };
+#endif

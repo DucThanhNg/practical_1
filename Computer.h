@@ -1,5 +1,7 @@
+#ifndef COMPUTER
+#define COMPUTER
 #include <iostream>
-#include <Player.h>
+#include "Player.h"
 
 class Computer: public Player{
     private:   
@@ -12,4 +14,5 @@ class Computer: public Player{
         char makeMove(); 
         std::string getName();
 };
+#endif
 
