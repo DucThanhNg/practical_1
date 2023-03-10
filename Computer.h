@@ -2,6 +2,7 @@
 #define COMPUTER
 #include <iostream>
 #include "Player.h"
+#include "Move.h"
 
 class Computer: public Player{
     private:   
@@ -11,7 +12,7 @@ class Computer: public Player{
 
     public:   
         Computer();
-        char makeMove(); 
+        Move* makeMove(); 
         std::string getName();
 };
 #endif

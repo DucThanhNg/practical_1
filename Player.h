@@ -1,6 +1,7 @@
 #ifndef PLAYER
 #define PLAYER
 #include <iostream>
+#include "Move.h"
 
 class Player{
     protected:
@@ -8,7 +9,7 @@ class Player{
         char move;
 
     public:
-        virtual char makeMove() = 0;
+        virtual Move* makeMove() = 0;
         virtual std::string getName() = 0;
 
 

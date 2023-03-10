@@ -14,8 +14,8 @@ std::string Human::getName(){
     return name;
 }
 
-char Human::makeMove(){
+Move* Human::makeMove(){
     std::cout << "Enter move: ";
     std::cin >> move;
-    return move;
+    return 0;
 }

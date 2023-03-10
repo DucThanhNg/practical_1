@@ -2,6 +2,7 @@
 #define HUMAN
 #include <iostream>
 #include "Player.h"
+#include "Move.h"
 
 class Human: public Player{
     private:
@@ -11,7 +12,7 @@ class Human: public Player{
     public:
         Human(std::string name);
         Human();
-        char makeMove();
+        Move* makeMove();
         std::string getName();
 
 

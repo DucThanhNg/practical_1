@@ -6,8 +6,8 @@ Computer::Computer(){
     move = 'R';
 }
 
-char Computer::makeMove(){
-    return move;
+Move* Computer::makeMove(){
+    return 0;
 
 }
 
