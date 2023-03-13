@@ -3,13 +3,9 @@
 #include <iostream>
 #include "Player.h"
 #include "Move.h"
+#include "Rock.h"
 
 class Computer: public Player{
-    private:   
-        std::string name;
-        char move;
-
-
     public:   
         Computer();
         Move* makeMove(); 

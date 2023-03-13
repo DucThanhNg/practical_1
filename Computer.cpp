@@ -1,13 +1,14 @@
 #include "Computer.h"
 #include "Player.h"
+#include "Rock.h"
 
 Computer::Computer(){
     name = "Computer";
-    move = 'R';
 }
 
 Move* Computer::makeMove(){
-    return 0;
+    move = new Rock();
+    return move;
 
 }
 
