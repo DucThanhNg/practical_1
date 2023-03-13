@@ -6,7 +6,7 @@
 class Player{
     protected:
         std::string name;
-        char move;
+        Move* move;
 
     public:
         virtual Move* makeMove() = 0;

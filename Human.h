@@ -3,11 +3,11 @@
 #include <iostream>
 #include "Player.h"
 #include "Move.h"
+#include "MoveFactory.h"
 
 class Human: public Player{
     private:
         std::string name;
-        char move;  
 
     public:
         Human(std::string name);

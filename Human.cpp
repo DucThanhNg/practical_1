@@ -1,5 +1,6 @@
 #include "Human.h"
 #include "Player.h"
+#include "MoveFactory.h"
 
 Human::Human(std::string Name){
     name = Name;
@@ -15,7 +16,11 @@ std::string Human::getName(){
 }
 
 Move* Human::makeMove(){
+    std::string strMove;
+    MoveFactory moveFactory;
     std::cout << "Enter move: ";
-    std::cin >> move;
-    return 0;
+    std::cin >> strMove;
+    move = moveFactory.generateMove(strMove);
+    return move;
+
 }
