@@ -15,5 +15,6 @@ bool Scissors::isWinAgainst(std::string move){
     else{
         std::cout << "Incompatible Move" << std::endl;
     }
+    return 0;
 
 }

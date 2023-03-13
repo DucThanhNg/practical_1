@@ -20,5 +20,6 @@ Move* MoveFactory::generateMove(std::string strMove){
     else{
         std::cout << "Invalid Move" << std::endl;
     }
+    return 0;
 
 }
