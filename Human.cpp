@@ -18,7 +18,6 @@ std::string Human::getName(){
 Move* Human::makeMove(){
     std::string strMove;
     MoveFactory moveFactory;
-    std::cout << "Enter move: ";
     std::cin >> strMove;
     move = moveFactory.generateMove(strMove);
     return move;
