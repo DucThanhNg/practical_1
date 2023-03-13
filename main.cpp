@@ -5,12 +5,12 @@
 #include "Referee.h"
 
 int main(){
-    Referee* referee = new Referee();
+    Referee referee;
     Computer* computer = new Computer();
     Human* human = new Human("Vic");
 
 
-    Player* winner = referee->refGame(computer,human);
+    Player* winner = referee.refGame(computer,human);
     std::cout << "The winner is" << winner->getName() << std::endl;
 
 
