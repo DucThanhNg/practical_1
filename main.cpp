@@ -10,6 +10,9 @@ int main(){
     Human* human = new Human("Vic");
 
 
-    std::cout << referee->refGame(computer,human);
+    Player* winner = referee->refGame(computer,human);
+    std::cout << "The winner is" << winner->getName() << std::endl;
+    
+
 
 }
