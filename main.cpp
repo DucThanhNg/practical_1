@@ -11,6 +11,7 @@ int main(){
 
 
     Player* winner = referee.refGame(computer,human);
+    std::cout << computer->makeMove() << std::endl;
     std::cout << "The winner is" << winner->getName() << std::endl;
 
 

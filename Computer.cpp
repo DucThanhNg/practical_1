@@ -4,10 +4,10 @@
 
 Computer::Computer(){
     name = "Computer";
+    move = new Rock();
 }
 
 Move* Computer::makeMove(){
-    move = new Rock();
     return move;
 
 }
