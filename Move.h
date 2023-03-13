@@ -3,23 +3,13 @@
 #include <iostream>
 
 class Move{
-    private:
+    protected:
         std::string name;
     public: 
-        std::string getName();
-
-
-
-
-
+        virtual std::string getName();
+        virtual bool isWinAgainst(std::string move) = 0;
 
 
 };
-
-
-
-
-
-
 
 #endif 
